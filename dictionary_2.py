@@ -5,6 +5,7 @@ from difflib import get_close_matches
 
 data = json.load(open("dictionary.json"))
 
+
 def retrive_definition(word):
     if word in data:
         return data[word]
